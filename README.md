@@ -13,15 +13,17 @@ We can help you if you are—
 
 To get started with a fully-fleged conference site—
 
+```bash
 $ git clone https://github.com/GoogleChrome/conflater.git
 $ npm install
 $ gulp serve
+```
 
 Your browser will open and you'll see the default site! 🎉
 
 This is a Progressive Web App! So, depending on your browser's support levels, the site will: work offline, prompt the user to install to their mobile home screen, and allow you to send notifications to attending users (or just yourself, while on `localhost`).
 
-If you'd like to tweak the output, many of the basic properties (color, title) can be adjusted by editing the `manifest.json` file.
+If you'd like to tweak the output, many of the basic properties (color, title) can be adjusted by editing the `manifest.json` file in this repo.
 Go ahead and try it now! 🎨
 
 ## Try Notifications
