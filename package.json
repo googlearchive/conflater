@@ -1,0 +1,23 @@
+{
+  "name": "conflater",
+  "version": "0.0.1",
+  "description": "Conference in a Box",
+  "main": "validate.js",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "handlebars": "^4.0.5",
+    "moment": "^2.14.1",
+    "moment-timezone": "^0.5.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoogleChrome/conflater.git"
+  },
+  "author": "Google, Inc.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GoogleChrome/conflater/issues"
+  },
+  "homepage": "https://github.com/GoogleChrome/conflater#readme"
+}

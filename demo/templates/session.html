@@ -1,0 +1,33 @@
+{{#view}}
+<article class="confbox" id="{{id}}">
+  <confbox-attending for="session-{{id}}">
+    <input type="checkbox" id="session-{{id}}" {{#process}} disabled {{/process}}/>
+  </confbox-attending>
+  <div class="rest">
+    <header>
+      <div class="times">
+        <time datetime="{{toISO when}}">{{time when}}</time>
+        <time-local datetime="{{toISO when}}"></time-local>
+      </div>
+      {{#speakers}}
+      <div class="icon" alt="{{name}}" {{#image}}style="background-image: url({{image}})"{{/image}}></div>
+      {{/speakers}}
+      <div class="shrink">
+        <a href="/sessions/{{id}}.html">
+          <h2>{{name}}</h2>
+          <h3 class="overflow">
+            <ul class="speakers">
+              {{#speakers}}
+              <li>{{name}}</li>
+              {{/speakers}}
+            </ul>
+          </h3>
+        </a>
+      </div>
+    </header>
+    <section>
+      {{abstract}}
+    </section>
+  </div>
+</article>
+{{/view}}

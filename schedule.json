@@ -1,0 +1,45 @@
+{
+  "config": {
+    "timezone": "US/Pacific"
+  },
+  "sessions": [
+    {
+      "name": "State of the Union",
+      "speakers": [
+        "page",
+        "sergey"
+      ],
+      "when": "2016-11-11T09:30"
+    },
+    {
+      "track": "Android",
+      "sessions": {
+        "intro-to-android-dev": {
+          "speakers": [
+            "page",
+            {
+              "name": "Sundar Pichai",
+              "twitter": "sundarpichai"
+            }
+          ],
+          "name": "Introduction to Android Development",
+          "when": "2016-11-11T11:00"
+        }
+      }
+    },
+    {
+      "track": "Web",
+      "name": "Intro to PWAs",
+      "when": "2016-11-11T11:00",
+      "speakers": ["sergey"]
+    }
+  ],
+  "speakers": {
+    "page": {
+      "name": "Larry Page"
+    },
+    "sergey": {
+      "name": "Sergey Brin"
+    }
+  }
+}
